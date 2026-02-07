@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { GlassTile } from "@/components/glass/GlassTile";
 
-const merchantOptions = ["startbucks", "tim hortons", "best buy"];
+const merchantOptions = ["starbucks", "tim hortons", "best buy"];
 
 export default function PaymentPage() {
   const router = useRouter();
